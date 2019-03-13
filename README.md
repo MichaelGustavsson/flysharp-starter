@@ -50,6 +50,8 @@ To see how Boostrap and the corresponding javascript files have been added to An
             ]
 ```
 
+So there is no indication in the index.html about the use of Bootstrap or JQuery.
+
 The global styles.scss has also been customized with the google font Roboto.
 
 ## Development server
