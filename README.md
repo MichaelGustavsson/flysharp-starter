@@ -16,7 +16,7 @@ json-server --watch db.json
 ```
 in the terminal or command window.
 
-Then in a webbrowser just type http://localhost:3000/flights/1 and you will receive the following response.
+Then in a web browser just type http://localhost:3000/flights/1 and you will receive the following response.
 
 ```
 {
@@ -33,6 +33,24 @@ Then in a webbrowser just type http://localhost:3000/flights/1 and you will rece
 }
 ```
 
+## Bootstrap
+The template is also prepared with Bootstrap 4 and JQuery.
+
+To see how Boostrap and the corresponding javascript files have been added to Angular, open the angular.json file and look at the arrays Styles and Scripts.
+
+```
+"styles": [
+              "node_modules/bootstrap/dist/css/bootstrap.min.css",
+              "src/styles.scss"
+            ],
+"scripts": [
+              "node_modules/jquery/dist/jquery.min.js",
+              "node_modules/popper.js/dist/umd/popper.min.js",
+              "node_modules/bootstrap/dist/js/bootstrap.min.js"
+            ]
+```
+
+The global styles.scss has also been customized with the google font Roboto.
 
 ## Development server
 
